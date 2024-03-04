@@ -83,6 +83,6 @@ print("Frequent Itemsets:")
 for itemset in apriori.get_itemsets():
     print(itemset)
 
-print("\nAssociation Rules:")
-for antecedent, consequent, confidence in apriori.get_rules(transactions):
-    print(f"{antecedent} => {consequent} (confidence: {confidence:.2f})")
+# print("\nAssociation Rules:")
+# for antecedent, consequent, confidence in apriori.get_rules(transactions):
+#     print(f"{antecedent} => {consequent} (confidence: {confidence:.2f})")
